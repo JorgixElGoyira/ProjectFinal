@@ -1,18 +1,26 @@
-# Ideas Proyecto Github
+# Identificación de genes relacionados con BMP en especies pertenecientes a la familia Boidae
 
-## Q1. En que organismo o grupo de organismos vas a trabajar?
+* Jorge I. Jaramillo (jijaramillor@puce.edu.ec)
+* Junio 26, 2025
 
-* Familia Boidae (serpientes no venenosas como boas, pitones, etc)
+## Objetivo del estudio
 
-## Q2. Brevemente describa que piensa hacer en su proyecto?
+* En este proyecto nos centraremos en la identificación de genes presentes en el desarrollo embrionario de boidos y que tengan relación con el gen BMP que es el encargado de codificar proteínas fundamentales para el mantenimiento óseo
 
-* Pienso realizar un iqtree de los genes presentes en especies representantes de la familia Boidae con fin de tener una filogenia de ellos
+## Requisitos para el desarrollo
 
-## Q3. Que programas voy a usar en mi proyecto?
+* Nuestro grupo de estudio será las especies pertenecientes a la familia Boidae (serpientes no venenosas como boas, pitones, etc) que posean estos genes mediante la guía de la base de datos NCBI y el uso de la base de datos de genes ortólogos entregada en el curso.
+* Adicional a la base de datos, es necesario utilizar diferentes programas para generar una filogenia mediante iqtree y figtree donde se presenten todos lo genes ortólogos de la base de datos entregada especificando las especies que poseen estos genes.
 
-* Busco utilizar los programas muscle, iqtree, figtree y atom
+* Ejemplo de Boidae:
 
-## Q4. Sube una foto que represente tu organismo o grupo de organismos
+![Corallus batesii](https://inaturalist-open-data.s3.amazonaws.com/photos/75478606/original.jpeg)
 
-![alt text](https://inaturalist-open-data.s3.amazonaws.com/photos/75478606/original.jpeg)
+## Programas a utilizar
 
+* Los programas que se van a utilizar en este proyecto son:
+
+* Muscle
+* IQtree
+* Atom
+* Figtree
