@@ -1,0 +1,27 @@
+# SCRIPTS
+
+## Obtención de gen BMP2 de la base de datos
+- ./datasets download gene symbol BMP2 -- orthologs Squamata -- filename BMP2_Squamata.zip
+
+## Selección de las especies de serpientes en una lista
+- grep -i -w "Ahaetulla\|Candoia\|Crotalus\|Erythrolamprus\|Notechis\|Pantherophis\|Pituophis\|Protobothrops\|Pseudonaja\|Python\|Thamnophis" Squamata.txt | cut -f 2 > Gene.Squamata.snakes.txt
+
+## Generación de archivo zip de la lista
+-	./datasets download gene-id -- inputfile Gene.Squamata.snakes.txt -- filename GS.snakes.zip
+
+## Para descomprimir un archivo zip
+- unzip BMP2_Squamata.zip
+
+## Alineamiento de las secuencias en la carpeta ncbi_dataset
+- ./muscle3.8.31_i86linux64 -in rna.fna -out muscleBMP2_rna.fna -maxiters t- diags
+- module load iqtree/2.2.2.6 
+- iqtree2 -s muscle_rna_fna
+
+## Descargar del Supercomputador desde una ventana local de gitbash
+* En el supercomputador
+- pwd 
+* En la computadora local
+-	scp dechavez@hoffman2.idre.ucla.edu:(pwd) muscleBMP2_rna.fna
+-	scp dechavez@hoffman2.idre.ucla.edu:(pwd) muscleBMP2_rna.fna.treefile
+
+* Subir el archivo rna.fna descargado al programa Atom y el archivo treefile al programa Figtree
