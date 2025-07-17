@@ -24,6 +24,7 @@
 * IQtree: A este programa se lo activa tras obtener las secuencias alineadas, ya que nos permitirá generar un archivo de filogenia con las especies que poseen el gen BMP2 y organizadas con respecto a su aparición.
 * Atom: Este programa utiliza archivos denominados rna.fna, los cuales nos permite identificar las especies que aparecen en la filogenia mediante su nombre científico y geneID.
 * FigTree: Este programa utiliza archivos denominados .treefile, este tipo de archivos poseen la filogenia hecha en iqtree y la podremos visualizar en FigTree.
-![Archivo muscleBMP2_rna.fna visualizado en el programa Atom, donde se presentan 14 especies del orden Squamata con el gen BMP2: XM_063316078.1 Candoia aspera; XM_063316086.1 Candoia aspera; XM_007427029.3 Python bivittatus; XM_015813549.2 Protobothrops mucrosquamatus; XM_039359446.1 Crotalus tigris; XM_0393559445.1 Crotalus tigris; XM_026710399.1 Pseudonaja textilis; XM_026668524.1 Notechis scutatus; XM_070732675.1 Erythrolamprus reginae; XM_014068423.1 Thamnophis sirtalis; XM_032214290.1 Thamnophis elegans; XM_058181271.1 Ahaetulla prasina; XM_070956260.1 Pituophis catenifer annectens; XM_034432344.1 Pantherophis guttatus](<img width="1365" height="691" alt="image" src="https://github.com/user-attachments/assets/7474b980-059f-49ae-a477-93833fdf0790" />)
+
+(<img width="1365" height="691" alt="image" src="https://github.com/user-attachments/assets/7474b980-059f-49ae-a477-93833fdf0790" />)
 
 
